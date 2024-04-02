@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* General */
 :root {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat";
   color: #d5d5d3;
   background: #fdffff;
   position: relative;
