@@ -97,6 +97,24 @@ a:hover {
   width: 100%;
 }
 
+/* Testimonies */
+.testimonies h2 {
+  font-weight: 700;
+  color: #c5994e;
+}
+.testimonies h4 {
+  font-weight: 600;
+  color: #c5994e;
+}
+.testimonies img {
+  width: 190px;
+  height: 190px;
+  border-radius: 200px;
+}
+.testimonies p {
+  color: #959898;
+}
+
 /* Contact */
 
 .contact .php-email-form {
