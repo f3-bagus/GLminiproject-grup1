@@ -97,6 +97,20 @@ a:hover {
   width: 100%;
 }
 
+/* Product */
+.product h2 {
+  font-weight: 700;
+  color: #c5994e;
+}
+.product h4 {
+  font-weight: 600;
+  color: #c5994e;
+}
+.product p {
+  color: #959898;
+  text-align: justify;
+}
+
 /* Testimonies */
 .testimonies h2 {
   font-weight: 700;
