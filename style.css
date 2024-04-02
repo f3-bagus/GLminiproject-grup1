@@ -1,0 +1,205 @@
+/* General */
+:root {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #d5d5d3;
+  background: #fdffff;
+  position: relative;
+  top: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #959898;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #959898;
+}
+
+/* Header */
+.header {
+  transition: all 0.5s;
+  z-index: 997;
+  background: #fdffff;
+  padding: 0px 0;
+  border-bottom: 5px solid #c5994e;
+}
+
+.header.header-scrolled {
+  padding: 10px 0;
+  box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
+}
+
+.header .logo {
+  line-height: 0;
+}
+
+.header .logo img {
+  max-height: 40px;
+  margin-right: 20px;
+}
+
+/*Navbar*/
+.navbar ul {
+  display: flex;
+  list-style: none;
+  align-items: left;
+}
+
+.navbar li {
+  position: relative;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+}
+
+.navbar a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  transition: 0.3s;
+  height: 4px;
+  bottom: -8px;
+  left: 0;
+  border-radius: 2px;
+  background: #c5994e;
+}
+
+.navbar a,
+.navbar a:focus {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #d5d5d3;
+  white-space: nowrap;
+  transition: 0.3s;
+}
+
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover > a {
+  color: #c5994e;
+}
+
+.navbar a.active::after,
+.navbar li:hover a::after {
+  background: #c5994e;
+  width: 100%;
+}
+
+/* Contact */
+
+.contact .php-email-form {
+  height: 100%;
+  margin-top: 1rem;
+}
+
+.contact .php-email-form input,
+.contact .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  border-radius: 0.2rem;
+  color: #c5994e;
+  background: #fdffff;
+}
+
+.contact .php-email-form input:focus,
+.contact .php-email-form textarea:focus {
+  border-color: #c5994e;
+  outline: 2px solid #c5994e;
+}
+
+.contact .php-email-form input {
+  padding: 10px 15px;
+}
+
+.contact .php-email-form textarea {
+  padding: 12px 15px;
+}
+
+/* Footer */
+.footer h6 {
+  color: #959898;
+  margin-bottom: 0;
+}
+.footer img {
+  width: 56px;
+  height: 56px;
+}
+
+/* Back to Top Button */
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 99999;
+  background: #c5994e;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  transition: all 0.4s;
+}
+
+.back-to-top i {
+  font-size: 24px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back-to-top:hover {
+  background: #e9d9d1;
+}
+
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Bootstrap Custom */
+.btn-primary,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #c5994e;
+  border-color: #c5994e;
+}
+.btn-primary:hover {
+  background-color: #b38c48;
+  border-color: #b38c48;
+}
+
+.btn-outline-primary,
+.btn-outline-primary:active,
+.btn-outline-primary:visited {
+  background-color: #fdffff;
+  border-color: #c5994e;
+  color: #c5994e;
+}
+.btn-outline-primary:hover {
+  background-color: #c5994e;
+  border-color: #c5994e;
+  color: white;
+}
+
+.carousel-inner > .carousel-item > img {
+  border: 1px solid #fdffff;
+  min-height: 100vh;
+  max-height: 100vh;
+  width: 100%;
+}
+
+.bg-secondary {
+  background-color: #c5994e !important;
+}
