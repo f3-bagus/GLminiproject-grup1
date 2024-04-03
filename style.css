@@ -99,6 +99,23 @@ a:hover {
   width: 100%;
 }
 
+/* About */
+.about h2 {
+  font-weight: 700;
+  color: #c5994e;
+}
+.about h3 {
+  font-weight: 600;
+  color: #c5994e;
+}
+.about p {
+  color: #959898;
+  text-align: justify;
+}
+.about-image {
+  border: 5px solid #c5994e;
+}
+
 /* Product */
 .product h2 {
   font-weight: 700;
