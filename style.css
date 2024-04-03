@@ -99,6 +99,19 @@ a:hover {
   width: 100%;
 }
 
+/* home */
+.home {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 /* Product */
 .product h2 {
   font-weight: 700;
